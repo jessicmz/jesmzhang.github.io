@@ -1,0 +1,100 @@
+/*
+
+Css
+
+*/
+
+html{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+div{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;	
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;	
+	line-height:1; /*similar to that double space*/
+}
+
+h1, h2, h3, p{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;	
+}
+
+ul,li{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;	
+	list-style:none;
+}
+
+section{
+	display:block;
+}
+
+/* headers */
+
+#header{
+	display: flex;
+	flex-direction:column;
+	align-items: flex-end;
+	background-color: #d7c6cf;
+	background-attachment: scroll, fixed;
+	background-image: url("../../images/hotair.png"), url("../../images/052666ba935e3117b8b70cfbcb42b507.jpg");
+	background-position:-35px 200px, -100px 0px;
+	background-repeat: no-repeat;
+	background-size: 100%, 40%;
+	height: 100%;
+	left:0;
+	padding: 8em 3em;
+	position: fixed;
+	text-align: right;
+	top: 0;
+	width: 30%;
+}
+
+#header h1{
+	font-size: 1.35em;
+	padding-top: 20px;
+	line-height: 1.75em;
+	font-family: 'Raleway', sans-serif;
+	color: #715464;
+}
+
+/* Box Model */
+
+	*, *:before, *:after {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+.img-circle{
+	
+	border-radius: 50%;
+	width: 200px;
+	height: auto;
+}
