@@ -6,7 +6,11 @@ Css
 ul {
   list-style-type: none;
 }
+
+article{
+	display:block;
 	
+}	
 
 body{
 	background:#f9f3f8;
@@ -21,7 +25,6 @@ section{
 	text-align:center;
 }
 
-/* headers */
 #main{
 	margin-left: 35%;
 	padding: 2em 2em 2em 2em;
@@ -64,22 +67,26 @@ section{
 }
 
 .contact{
-	left:0;
-	top:0;
-	margin-left: 0px;
-	display:block;
+	margin-right: 0px;
+	display:inline-block;
+	height: 100%;
+	position: relative;
+	text-align: right;
+	width: auto;	
+}
+
+.contact img{
+	float:right;
+	display: inline-block;
+	width:20%;
+	height:auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+	left: 0px;
+	top:0px;
 	
 }
-
-.contact li{
-
-	display: inline-flex;
-	margin: 0 20px 0 0;
-	flex-direction:column;
-	justify-content: space-between;
-}
-
-
 .img-circle{
 	padding-right: 25px;
 	border-radius: 50%;
@@ -88,30 +95,43 @@ section{
 	
 }
 
-
-	article.blog{
-		background: url("../../images/iPhone-Flower-Photography-43.jpg");
-		background-size: 100%;
-		background-repeat: no-repeat;
-		height: 400px;
-		width: 100%;
-		margin: 1em;
-		
-	}
-	
-	a {
+article img{
+		max-height: 400px;
+		max-width:650px;
+		height:auto;
+		width: auto;
+		padding-top: 0px;
+		margin: 0px;
+		margin-bottom: 50px;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		border: solid 5px;
 		color: #715464;
-		text-decoration: none;
 
 	}
+article img.badminton{
+		max-height: 500px;
+		max-width:650px;
+		height:auto;
+		width: auto;
+		padding-top: 0px;
+		margin: 0px;
+		margin-bottom: 50px;
+		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		border: solid 5px;
+		color: #715464;
 
-		a:hover {
-			border-bottom-color: transparent;
-			text-decoration: none;
-		}
+	}	
 
+
+article img:hover {
+	border-color: transparent;
+
+}
+
+article img.badminton:hover {
+	border-color: transparent;
+	
+}
 	p {
 		margin: 0 0 2em 0;
 	}
@@ -129,12 +149,9 @@ section{
 
 	}
 
-
-
-	header p {
-		color: #b2b2b2;
-		position: relative;
-		margin: 0 0 1.5em 0;
-	}
+header h2{
+	font-size: 50px;
+	color:#715464;
+}
 
 	
