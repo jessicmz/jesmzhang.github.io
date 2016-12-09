@@ -1,10 +1,7 @@
 
 $(document).ready(function () {
-	$('#header').hide().delay(500).fadeIn(3000);
-	$('.img-circle').hide().delay(600).fadeIn(3000);
-	$('#fade').hide().delay(700).fadeIn(3000);
-
-	$('#main').hide().fadeIn(2000);
-
-
+	$('#header').hide().fadeIn(1000);
+	$('.img-circle').hide().fadeIn(1000);
+	$('#fade').hide().fadeIn(1000);
+	$('#main').hide().fadeIn(1000);
 });
