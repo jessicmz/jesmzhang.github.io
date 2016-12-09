@@ -12,7 +12,15 @@ article{
 	display:block;
 	
 }	
-
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0; 
+}
+}
 body{
 	background:#f9f3f8;
 	font-family: 'Raleway', sans-serif;
@@ -35,11 +43,11 @@ body{
 
 .navbar .navbar-nav {
     display: inline-block;
-    float: none;
+    float: left;
 	font-size: 15px;
 	height: 30px;
-	padding-left:350px;
-	margin: 0;
+	padding: 0 0 0 0;
+	margin: 0 10px 10px 280px ;
 
 }
 
@@ -50,7 +58,7 @@ body{
 
 section{
 	display:block;
-	text-align:center;
+	text-align:left;
 }
 
 #main{
@@ -117,26 +125,40 @@ section{
 article img{
 		max-height: auto;
 		max-width:100%;
+		width: 350px;
 		padding-top: 0px;
 		margin: 0px;
 		margin-bottom: 50px;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border: solid 5px;
-		color: #715464;
+		color: #715464;	
 
 	}
 article img.badminton{
 		max-height: auto;
 		max-width:100%;
+		width: 350px;
 		padding-top: 0px;
 		margin: 0px;
 		margin-bottom: 50px;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border: solid 5px;
-		color: #715464;
+		color: #715464;	
 
 	}	
 
+a img.improved
+{
+		max-height: auto;
+		max-width:100%;
+		width: 550px;
+		padding-top: 0px;
+		margin: 0px;
+		margin-bottom: 50px;
+		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		border: solid 5px;
+		color: #715464;	
+}
 
 article img:hover {
 	border-color: transparent;
